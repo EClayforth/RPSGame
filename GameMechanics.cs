@@ -109,11 +109,12 @@ namespace RPSGame
             }
             else { return false; }
         }
-        public static void CheckPlayAgain(bool ans)
+        public static void CheckPlayAgain(bool ans, Player player1
+            )
         {
             if (ans)
             {
-                Play.Round();
+                Game.Round(player1);
                 return;
             }
             else
@@ -140,13 +141,13 @@ namespace RPSGame
             }
         }
 
-        public static void DrawResolution(string result)
+        public static void DrawResolution(string result, Player player1)
         {
-            if (result == "d") { Play.Round(); }
+            if (result == "d") { Game.Round(player1); }
             else
             {
                 bool again = GameMechanics.AskPlayAgain();
-                GameMechanics.CheckPlayAgain(again);
+                GameMechanics.CheckPlayAgain(again, player1);
 
             }
         }

@@ -6,7 +6,12 @@
         {
             Dialog.Intro();
 
-            Play.Round();
+                Player player1 = new Player();
+                player1.Hardmode = false;
+           
+
+            
+            Game.Round(player1);
 
                         
             

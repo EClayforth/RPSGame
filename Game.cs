@@ -7,25 +7,26 @@ using System.Threading.Tasks;
 
 namespace RPSGame
 {
-    internal class Play
-    { public static void Round() {
+    internal class Game
+    { public static void Round(Player player1) {
 
             Dialog.RPSSelection();
 
-            var pchoice = GameMechanics.Pchoice();
+            player1.Choice = GameMechanics.Pchoice();
 
             var cchoice = GameMechanics.Cchoice();
             
             Dialog.OMove(GameMechanics.CMove(cchoice));
             System.Threading.Thread.Sleep(700);
 
-            var result = GameMechanics.GameResult(pchoice, cchoice);
+            var result = GameMechanics.GameResult(player1.Choice, cchoice);
             System.Threading.Thread.Sleep(700);
 
             GameMechanics.ResolveGame(result);
             System.Threading.Thread.Sleep(700);
 
-            GameMechanics.DrawResolution(result);
+            GameMechanics.DrawResolution(result, player1
+                );
            
 
 

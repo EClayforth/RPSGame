@@ -31,6 +31,7 @@ namespace RPSGame
 
         public static void EndGame() { Console.WriteLine("Thank you playing");  }
 
+        public static void Hardmode() { Console.WriteLine("Would you like to play hard mode? y/n"); }
 
     }
 }
