@@ -9,6 +9,8 @@ namespace RPSGame
     internal class Dialog
     { public static void Intro() {
             Console.WriteLine("Welcome To Rock, Paper Scissors");
+            System.Threading.Thread.Sleep(700);
+
 
         }
 
@@ -21,7 +23,7 @@ namespace RPSGame
 
         public static void LossMessage() { Console.WriteLine("You have lost!"); }
 
-        public static void DrawMessage() { Console.WriteLine("This was a Draw"); }
+        public static void DrawMessage() { Console.WriteLine("This was a Draw, You must play again!!!" ); }
 
         public static void PlayAgain() { Console.WriteLine("Play again? (y/n)"); }
 

@@ -124,5 +124,31 @@ namespace RPSGame
 
 
         }
+        public static void ResolveGame(string result)
+        {
+            if (result == "w") { Dialog.WinMessage(); }
+
+            else if (result == "d")
+            {
+                Dialog.DrawMessage();
+            }
+
+            else
+            {
+                Dialog.LossMessage();
+
+            }
+        }
+
+        public static void DrawResolution(string result)
+        {
+            if (result == "d") { Play.Round(); }
+            else
+            {
+                bool again = GameMechanics.AskPlayAgain();
+                GameMechanics.CheckPlayAgain(again);
+
+            }
+        }
     }
 }

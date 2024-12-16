@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,22 +15,17 @@ namespace RPSGame
             var pchoice = GameMechanics.Pchoice();
 
             var cchoice = GameMechanics.Cchoice();
-
+            
             Dialog.OMove(GameMechanics.CMove(cchoice));
+            System.Threading.Thread.Sleep(700);
 
             var result = GameMechanics.GameResult(pchoice, cchoice);
+            System.Threading.Thread.Sleep(700);
 
-            if (result == "w" ){ Dialog.WinMessage(); }
+            GameMechanics.ResolveGame(result);
+            System.Threading.Thread.Sleep(700);
 
-            else if (result == "d") { Dialog.DrawMessage(); }
-
-            else {
-                Dialog.LossMessage();
-
-            }
-
-            bool again = GameMechanics.AskPlayAgain();
-            GameMechanics.CheckPlayAgain(again);
+            GameMechanics.DrawResolution(result);
            
 
 
