@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|c:\\users\\uitec\\onedrive - university of leeds\\qa  and testing\\test team training\\automation - corecom - 202425\\user folders\\elan\\rpsgame\\rpsgame\\gamemechanics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|solutionrelative:gamemechanics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|c:\\users\\uitec\\onedrive - university of leeds\\qa  and testing\\test team training\\automation - corecom - 202425\\user folders\\elan\\rpsgame\\rpsgame\\playgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|solutionrelative:playgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|c:\\users\\uitec\\onedrive - university of leeds\\qa  and testing\\test team training\\automation - corecom - 202425\\user folders\\elan\\rpsgame\\rpsgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|c:\\users\\uitec\\onedrive - university of leeds\\qa  and testing\\test team training\\automation - corecom - 202425\\user folders\\elan\\rpsgame\\rpsgame\\dialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B9C2F29-1883-4860-AC97-C339F71F259A}|RPSGame.csproj|solutionrelative:dialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T09:35:35.119Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -40,6 +39,62 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Playgame.cs",
+              "DocumentMoniker": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Playgame.cs",
+              "RelativeDocumentMoniker": "Playgame.cs",
+              "ToolTip": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Playgame.cs",
+              "RelativeToolTip": "Playgame.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:48:48.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:22:44.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameMechanics.cs",
+              "DocumentMoniker": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\GameMechanics.cs",
+              "RelativeDocumentMoniker": "GameMechanics.cs",
+              "ToolTip": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\GameMechanics.cs*",
+              "RelativeToolTip": "GameMechanics.cs*",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAhwGwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:19:28.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dialog.cs",
+              "DocumentMoniker": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Dialog.cs",
+              "RelativeDocumentMoniker": "Dialog.cs",
+              "ToolTip": "C:\\Users\\uitec\\OneDrive - University of Leeds\\QA  and Testing\\Test Team Training\\Automation - Corecom - 202425\\User Folders\\Elan\\RPSGame\\RPSGame\\Dialog.cs",
+              "RelativeToolTip": "Dialog.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:09:20.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
             }
           ]
         }
